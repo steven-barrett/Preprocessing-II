@@ -1,1 +1,46 @@
 // Navigation Styles here
+nav {
+    .flexbox-setup(flex-end, space-evenly, row);    
+    margin: 20px; 
+    
+    a {
+        text-decoration: none;
+        color: @shark;
+        font-size: 25px;
+        padding: 0px 0px 0px 25px;
+    }
+    a:hover {
+        /* add animations*/
+        color: @eastern-blue;
+    }
+}
+.nav-p {            
+    font-size: 35px;
+    font-style: 'Naive Inline' italic;
+    padding: 0px 250px 0px 0px;
+}
+
+@media @media {
+    .nav-p {            
+        font-size: 35px;
+        font-style: 'Naive Inline' italic;
+        padding: 0px 250px 0px 0px;
+    }
+
+    nav {
+        .flexbox-setup(space-evenly, center, row);    
+        margin: 20px; 
+        
+        a {
+            text-decoration: none;
+            color: @shark;
+            font-size: 25px;
+            padding: 0px 0px 0px 25px;
+        }
+        a:hover {
+            /* add animations*/
+            color: @eastern-blue;
+        }
+    }
+    
+}

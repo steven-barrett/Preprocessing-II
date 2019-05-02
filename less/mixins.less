@@ -1,1 +1,16 @@
 // Mixins in here
+.flexbox-setup(@justify, @align, @direction) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.create-btn(@backgroundColor) {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color:@backgroundColor;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
